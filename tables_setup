@@ -1,0 +1,62 @@
+SQL code for tables setup. I decided on what information I wanted to keep track of in the database and then created a table for each along with the necessary columns. 
+Each table has a PRIMARY KEY and tables 2 and 3 both include a FOREIGN KEY. 
+SKILLS PRACTICED:
+  - Creating tables
+  - Utilizing PRIMARY and FOREIGN KEYS
+
+TABLE 1: EMPLOYEES 
+The following code creates a table with the following columns: Emplyoee ID, First Name, Last Name, Department, Position, Salary and Hire Date. 
+
+  CREATE TABLE Employees (
+    employee_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    department VARCHAR(100),
+    position VARCHAR(100),
+    salary DECIMAL(10, 2),
+    hire_date DATE
+);
+
+TABLE 2: DEPARTMENTS
+The following code creates a table with the following columns: Department ID, Department Name and Manager ID.
+The manager_id is a foregin key and will link to that managers employee_id in the employee table. 
+
+  CREATE TABLE Departments (
+    department_id INT PRIMARY KEY,
+    department_name VARCHAR(100),
+    manager_id INT,
+    FOREIGN KEY (manager_id) REFERENCES Employees(employee_id)
+);
+
+TABLE 3: SALES
+The following code creates a table with the following columns: Sale ID, Employee ID, Sale Date, Sale Amount and Product Sold. 
+The employee_id is a foreign key linked to the employee_id in the employee table. 
+
+CREATE TABLE Sales (
+    sale_id INT PRIMARY KEY,
+    employee_id INT,
+    sale_date DATE,
+    sale_amount DECIMAL(7, 2),
+    product_sold VARCHAR(100),
+    FOREIGN KEY (employee_id) REFERENCES Employees(employee_id)
+);
+
+TABLE 4: PRODUCTS 
+The following code creates a table with the following columns: Product ID, Product Name and Price
+
+CREATE TABLE Products (
+    product_id INT PRIMARY KEY,
+    product_name VARCHAR(100),
+    price DECIMAL(5, 2)
+);
+
+TABLE 5: CUSTOMERS
+The following code creates a table with the following columns: Customer ID, First Name, Last Name, Email and Phone Number.
+
+CREATE TABLE Customers (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100),
+    phone_number VARCHAR(15)
+);
