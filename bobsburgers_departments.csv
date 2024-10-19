@@ -1,0 +1,10 @@
+department_id,department_name,manager_id
+0001,sales,0001
+0002,kitchen,0002
+0003,marketing,0010
+0004,hr,0017
+0005,front of house,0008
+0006,maintinence,0015
+0007,it,0025
+0008,accounting,0019
+0009,security,0016
