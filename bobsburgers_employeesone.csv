@@ -1,0 +1,26 @@
+employee_id,first_name,last_name,department,position,salary,hire_date
+0001,Louise,Belcher,Sales,Sales Manager,82332.15,1/26/2020
+0002,Bob,Belcher,Kitchen,Head Chef,81557.58,3/13/2023
+0003,Tammy,Larsen,Marketing,Social Media,49924.66,12/18/2019
+0004,Jocelyn,Richards,Marketing,Social Media,44578.15,2/29/2024
+0005,Mort,Lichterman,Sales,Sales Specialist,42180.72,2/27/2022
+0006,Rudy,Stieblitz,HR,Asst HR Manager,36377.27,11/30/2022
+0007,Tina,Belcher,Kitchen,Asst Chef,75178.62,8/21/2022
+0008,Linda,Belcher,Front of House,Manager,71900.22,10/8/2022
+0009,Gayle,Genarro,Front of House,Asst Manager,64500.36,11/8/2022
+0010,Jimmy ,Pesto,Marketing,Manager,71532.23,11/17/2023
+0011,Andy ,Pesto,Marketing,Bus Boy,34500.28,2/27/2024
+0012,Ollie,Pesto,Marketing,Bus Boy,34500.28,4/16/2020
+0013,Millie,Frock,Sales,Sales Specialist,44578.15,5/28/2020
+0014,Gene,Belcher,Front of House,Maitre 'D,71900.22,5/16/2023
+0015,Teddy,Handiman,Maintinence,Manager,75300.68,8/14/2022
+0016,Zeke,Anthony,Front of House,Security,65300.15,8/14/2022
+0017,Philip ,Frond,HR,HR Manager,71500.16,3/15/2023
+0018,Courtney ,Wheeler,Marketing,Social Media,44758.32,7/7/2020
+0019,Mickey,York,Accounting,Manager,71250.87,2/1/2020
+0020,Hugo,Habercore,Maintinence,Sanitation,68500.75,6/18/2022
+0021,Ron,Johnson,Maintinence,Sanitation,68500.75,6/19/2022
+0022,Chloe ,Barbash,Front of House,Waitress,47435.68,10/22/2020
+0023,Abby,Haddington,Front of House,Waitress,463500.4,4/16/2021
+0024,Harley,Johnston,Front of House,Waitress,45343.38,3/6/2022
+0025,Henry ,Haber,IT,Manager,68736.79,2/22/2020
